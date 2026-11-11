@@ -1,0 +1,76 @@
+[
+  {
+    "file": "output_01.png",
+    "prompt": "A factory worker in a white safety helmet and blue overalls, inside a bright manufacturing plant, soft morning light from tall windows on the left, photorealistic documentary photography, muted colors",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_01.png"
+  },
+  {
+    "file": "exp_a_01.png",
+    "prompt": "An astronaut in a white space suit on the surface of the moon, earth in the black sky, cinematic lighting, photorealistic",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_01.png",
+    "experiment": "A: 같은 포즈, 다른 프롬프트"
+  },
+  {
+    "file": "exp_a_02.png",
+    "prompt": "A medieval knight in silver armor in a castle courtyard, overcast daylight, oil painting style",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_01.png",
+    "experiment": "A: 같은 포즈, 다른 프롬프트"
+  },
+  {
+    "file": "exp_a_03.png",
+    "prompt": "A cheerful chef in a white uniform in a busy restaurant kitchen, warm tungsten light, documentary photo",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_01.png",
+    "experiment": "A: 같은 포즈, 다른 프롬프트"
+  },
+  {
+    "file": "output_02.png",
+    "prompt": "A factory worker in a white safety helmet and blue overalls, inside a bright manufacturing plant, soft morning light from tall windows on the left, photorealistic documentary photography, muted colors",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_02.png",
+    "experiment": "B: 다른 포즈, 같은 프롬프트"
+  },
+  {
+    "file": "exp_c_strength_0.5.png",
+    "prompt": "A factory worker in a white safety helmet and blue overalls, inside a bright manufacturing plant, soft morning light from tall windows on the left, photorealistic documentary photography, muted colors",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_01.png",
+    "pose_strength": 0.5,
+    "experiment": "C: 포즈 세기"
+  },
+  {
+    "file": "exp_c_strength_1.0.png",
+    "prompt": "A factory worker in a white safety helmet and blue overalls, inside a bright manufacturing plant, soft morning light from tall windows on the left, photorealistic documentary photography, muted colors",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_01.png",
+    "pose_strength": 1.0,
+    "experiment": "C: 포즈 세기"
+  },
+  {
+    "file": "exp_c_strength_1.5.png",
+    "prompt": "A factory worker in a white safety helmet and blue overalls, inside a bright manufacturing plant, soft morning light from tall windows on the left, photorealistic documentary photography, muted colors",
+    "seed": 42,
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "controlnet": "lllyasviel/control_v11p_sd15_openpose",
+    "pose": "pose_01.png",
+    "pose_strength": 1.5,
+    "experiment": "C: 포즈 세기"
+  }
+]
